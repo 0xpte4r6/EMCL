@@ -1,2 +1,2 @@
-# CMCL
-A Console Minecraft Launcher
+# EMCL
+Express Minecraft Launcher
