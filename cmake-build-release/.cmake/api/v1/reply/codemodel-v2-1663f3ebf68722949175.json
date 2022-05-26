@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "c_console_minecraft_launcher",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "c_console_minecraft_launcher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c_console_minecraft_launcher-Release-1edd7cd9e9bd3746cd3d.json",
+					"name" : "c_console_minecraft_launcher",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher - \u526f\u672c/cmake-build-release",
+		"source" : "D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher - \u526f\u672c"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
