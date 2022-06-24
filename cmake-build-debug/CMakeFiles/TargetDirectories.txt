@@ -1,3 +1,3 @@
-D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher - 副本/cmake-build-debug/CMakeFiles/c_console_minecraft_launcher.dir
-D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher - 副本/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher - 副本/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/cmake-build-debug/CMakeFiles/c_console_minecraft_launcher.dir
+D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,15 @@
+# ninja log v5
+1057	1476	6744597642416979	CMakeFiles/c_console_minecraft_launcher.dir/src/options/listOption.c.obj	a4d494429a474baf
+22	1062	6744597638275943	CMakeFiles/c_console_minecraft_launcher.dir/src/options/startGameOption.c.obj	b7f98a1c26febb24
+30	1097	6744597638706045	CMakeFiles/c_console_minecraft_launcher.dir/src/utils.c.obj	6f27315fce2e871f
+1129	1504	6744597642907113	CMakeFiles/c_console_minecraft_launcher.dir/src/options/printOption.c.obj	33d67959156a1a1b
+7	1128	6744597638776088	CMakeFiles/c_console_minecraft_launcher.dir/src/main.c.obj	c4fcd52f415a40a7
+1063	1492	6744597642627042	CMakeFiles/c_console_minecraft_launcher.dir/src/options/installOption.c.obj	9fe0b2eafa61b2b8
+26	1056	6744597638325962	CMakeFiles/c_console_minecraft_launcher.dir/src/options/selectOption.c.obj	99a194a6064ab176
+15	1217	6744597638806079	CMakeFiles/c_console_minecraft_launcher.dir/src/modules/mclauncher.c.obj	7f702b685e3ce75
+1097	1505	6744597642887104	CMakeFiles/c_console_minecraft_launcher.dir/src/options/helpOption.c.obj	a17e49fb659cff45
+34	2956	6744597657442011	CMakeFiles/c_console_minecraft_launcher.dir/src/libraries/cjson/cJSON.c.obj	b8607bb88d1f5f58
+2957	3356	6744597660986177	c_console_minecraft_launcher.exe	811eca00405b6eb6
+79	670	6777448477580258	build.ninja	efbab59d9f92d2d
+1	53	0	clean	b0e107317eecceac
+1225	1508	6744597643167170	CMakeFiles/c_console_minecraft_launcher.dir/src/modules/downloadApiProviders.c.obj	a62b79c78a6143f3

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher - \u526f\u672c/cmake-build-release"
+			"value" : "d:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/cmake-build-release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher - \u526f\u672c"
+			"value" : "D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher - \u526f\u672c/cmake-build-release"
+			"value" : "D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/cmake-build-release"
 		},
 		{
 			"name" : "c_console_minecraft_launcher_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher - \u526f\u672c"
+			"value" : "D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher"
 		}
 	],
 	"kind" : "cache",

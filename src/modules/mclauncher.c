@@ -117,32 +117,32 @@ char *getJVMArguments(char *versionJsonFilex, char *nativesDir, char *classPath)
             if (values != NULL) {
                 for (int j = 0; j < cJSON_GetArraySize(values); j++) {
                     char *argString = cJSON_GetArrayItem(values, j)->valuestring;
-                    strncat(temp, "\"", 1);
+                    strncat(temp, "\"", 2);
                     strncat(temp, argString, strlen(argString));
-                    strncat(temp, "\" ", 2);
+                    strncat(temp, "\" ", 3);
                 }
             } else {
                 char *argString = argumentsArrayIndex1->valuestring;
                 if (!strcmp(argString, "${classpath}")) {
                     strncat(temp, classPath, strlen(classPath));
-                    strncat(temp, " ", 1);
+                    strncat(temp, " ", 2);
                 } else if (!strcmp(argString, "-Djava.library.path=${natives_directory}")) {
-                    strncat(temp, "-Djava.library.path=", 20);
+                    strncat(temp, "-Djava.library.path=", 22);
                     strncat(temp, nativesDir, strlen(nativesDir));
-                    strncat(temp, " ", 1);
+                    strncat(temp, " ", 2);
                 } else if (!strcmp(argString, "-Dminecraft.launcher.version=${launcher_version}")) {
-                    strncat(temp, "-Dminecraft.launcher.version=", 29);
-                    strncat(temp, "1.0", 5);
-                    strncat(temp, " ", 1);
+                    strncat(temp, "-Dminecraft.launcher.version=", 30);
+                    strncat(temp, "1.0", 4);
+                    strncat(temp, " ", 2);
                 } else if (!strcmp(argString, "-Dminecraft.launcher.brand=${launcher_name}")) {
-                    strncat(temp, "-Dminecraft.launcher.brand=", 27);
-                    strncat(temp, "[WIP]EMCL1.0", 12);
-                    strncat(temp, " ", 1);
+                    strncat(temp, "-Dminecraft.launcher.brand=", 28);
+                    strncat(temp, "[WIP]EMCL1.0", 13);
+                    strncat(temp, " ", 2);
                 } else {
-                    strncat(temp, "\"", 1);
+                    strncat(temp, "\"", 3);
                     strncat(temp, argumentsArrayIndex1->valuestring,
                             strlen(argumentsArrayIndex1->valuestring));
-                    strncat(temp, "\" ", 2);
+                    strncat(temp, "\" ", 3);
                 }
             }
         }
@@ -172,41 +172,41 @@ char *getGameArguments(char *versionJsonFilex, char *playerName, char *versionNa
                 for (int j = 0; j < cJSON_GetArraySize(values); j++) {
                     strncat(temp, cJSON_GetArrayItem(values, j)->valuestring,
                             strlen(cJSON_GetArrayItem(values, j)->valuestring));
-                    strncat(temp, " ", 1);
+                    strncat(temp, " ", 2);
                 }
             } else {
                 char *argString = argumentsArrayIndex1->valuestring;
                 if (!strcmp(argString, "${auth_player_name}")) {
                     strncat(temp, playerName, strlen(playerName));
-                    strncat(temp, " ", 1);
+                    strncat(temp, " ", 2);
                 } else if (!strcmp(argString, "${version_name}")) {
                     strncat(temp, versionName, strlen(versionName));
-                    strncat(temp, " ", 1);
+                    strncat(temp, " ", 2);
                 } else if (!strcmp(argString, "${game_directory}")) {
                     strncat(temp, gameDir, strlen(gameDir));
-                    strncat(temp, " ", 1);
+                    strncat(temp, " ", 2);
                 } else if (!strcmp(argString, "${assets_root}")) {
                     strncat(temp, assetsDirx, strlen(assetsDirx));
-                    strncat(temp, " ", 1);
+                    strncat(temp, " ", 2);
                 } else if (!strcmp(argString, "${assets_index_name}")) {
                     strncat(temp, assetsIndex, strlen(assetsIndex));
-                    strncat(temp, " ", 1);
+                    strncat(temp, " ", 2);
                 } else if (!strcmp(argString, "${auth_uuid}")) {
                     strncat(temp, uuid, strlen(uuid));
-                    strncat(temp, " ", 1);
+                    strncat(temp, " ", 2);
                 } else if (!strcmp(argString, "${auth_access_token}")) {
                     strncat(temp, accessToken, strlen(accessToken));
-                    strncat(temp, " ", 1);
+                    strncat(temp, " ", 2);
                 } else if (!strcmp(argString, "${user_type}")) {
-                    strncat(temp, "mojang", 6);
-                    strncat(temp, " ", 1);
+                    strncat(temp, "mojang", 7);
+                    strncat(temp, " ", 2);
                 } else if (!strcmp(argString, "${version_type}")) {
-                    strncat(temp, "[WIP]EMCL1.0", 12);
-                    strncat(temp, " ", 1);
+                    strncat(temp, "[WIP]EMCL1.0", 13);
+                    strncat(temp, " ", 2);
                 } else {
                     strncat(temp, argumentsArrayIndex1->valuestring,
                             strlen(argumentsArrayIndex1->valuestring));
-                    strncat(temp, " ", 1);
+                    strncat(temp, " ", 2);
                 }
             }
         }

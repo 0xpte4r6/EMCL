@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher$ -$ 副本/cmake-build-debug/
+cmake_ninja_workdir = D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target c_console_minecraft_launcher
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraf
 
 build cmake_object_order_depends_target_c_console_minecraft_launcher: phony || CMakeFiles/c_console_minecraft_launcher.dir
 
-build CMakeFiles/c_console_minecraft_launcher.dir/src/main.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher$ -$ 副本/src/main.c || cmake_object_order_depends_target_c_console_minecraft_launcher
+build CMakeFiles/c_console_minecraft_launcher.dir/src/main.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/src/main.c || cmake_object_order_depends_target_c_console_minecraft_launcher
   DEP_FILE = CMakeFiles\c_console_minecraft_launcher.dir\src\main.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\c_console_minecraft_launcher.dir
@@ -57,7 +57,7 @@ build CMakeFiles/c_console_minecraft_launcher.dir/src/main.c.obj: C_COMPILER__c_
   TARGET_COMPILE_PDB = CMakeFiles\c_console_minecraft_launcher.dir\
   TARGET_PDB = c_console_minecraft_launcher.pdb
 
-build CMakeFiles/c_console_minecraft_launcher.dir/src/modules/mclauncher.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher$ -$ 副本/src/modules/mclauncher.c || cmake_object_order_depends_target_c_console_minecraft_launcher
+build CMakeFiles/c_console_minecraft_launcher.dir/src/modules/mclauncher.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/src/modules/mclauncher.c || cmake_object_order_depends_target_c_console_minecraft_launcher
   DEP_FILE = CMakeFiles\c_console_minecraft_launcher.dir\src\modules\mclauncher.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\c_console_minecraft_launcher.dir
@@ -65,7 +65,7 @@ build CMakeFiles/c_console_minecraft_launcher.dir/src/modules/mclauncher.c.obj: 
   TARGET_COMPILE_PDB = CMakeFiles\c_console_minecraft_launcher.dir\
   TARGET_PDB = c_console_minecraft_launcher.pdb
 
-build CMakeFiles/c_console_minecraft_launcher.dir/src/libraries/cjson/cJSON.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher$ -$ 副本/src/libraries/cjson/cJSON.c || cmake_object_order_depends_target_c_console_minecraft_launcher
+build CMakeFiles/c_console_minecraft_launcher.dir/src/libraries/cjson/cJSON.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/src/libraries/cjson/cJSON.c || cmake_object_order_depends_target_c_console_minecraft_launcher
   DEP_FILE = CMakeFiles\c_console_minecraft_launcher.dir\src\libraries\cjson\cJSON.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\c_console_minecraft_launcher.dir
@@ -73,7 +73,7 @@ build CMakeFiles/c_console_minecraft_launcher.dir/src/libraries/cjson/cJSON.c.ob
   TARGET_COMPILE_PDB = CMakeFiles\c_console_minecraft_launcher.dir\
   TARGET_PDB = c_console_minecraft_launcher.pdb
 
-build CMakeFiles/c_console_minecraft_launcher.dir/src/utils.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher$ -$ 副本/src/utils.c || cmake_object_order_depends_target_c_console_minecraft_launcher
+build CMakeFiles/c_console_minecraft_launcher.dir/src/utils.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/src/utils.c || cmake_object_order_depends_target_c_console_minecraft_launcher
   DEP_FILE = CMakeFiles\c_console_minecraft_launcher.dir\src\utils.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\c_console_minecraft_launcher.dir
@@ -81,7 +81,7 @@ build CMakeFiles/c_console_minecraft_launcher.dir/src/utils.c.obj: C_COMPILER__c
   TARGET_COMPILE_PDB = CMakeFiles\c_console_minecraft_launcher.dir\
   TARGET_PDB = c_console_minecraft_launcher.pdb
 
-build CMakeFiles/c_console_minecraft_launcher.dir/src/options/startGameOption.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher$ -$ 副本/src/options/startGameOption.c || cmake_object_order_depends_target_c_console_minecraft_launcher
+build CMakeFiles/c_console_minecraft_launcher.dir/src/options/startGameOption.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/src/options/startGameOption.c || cmake_object_order_depends_target_c_console_minecraft_launcher
   DEP_FILE = CMakeFiles\c_console_minecraft_launcher.dir\src\options\startGameOption.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\c_console_minecraft_launcher.dir
@@ -89,7 +89,7 @@ build CMakeFiles/c_console_minecraft_launcher.dir/src/options/startGameOption.c.
   TARGET_COMPILE_PDB = CMakeFiles\c_console_minecraft_launcher.dir\
   TARGET_PDB = c_console_minecraft_launcher.pdb
 
-build CMakeFiles/c_console_minecraft_launcher.dir/src/options/selectOption.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher$ -$ 副本/src/options/selectOption.c || cmake_object_order_depends_target_c_console_minecraft_launcher
+build CMakeFiles/c_console_minecraft_launcher.dir/src/options/selectOption.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/src/options/selectOption.c || cmake_object_order_depends_target_c_console_minecraft_launcher
   DEP_FILE = CMakeFiles\c_console_minecraft_launcher.dir\src\options\selectOption.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\c_console_minecraft_launcher.dir
@@ -97,7 +97,7 @@ build CMakeFiles/c_console_minecraft_launcher.dir/src/options/selectOption.c.obj
   TARGET_COMPILE_PDB = CMakeFiles\c_console_minecraft_launcher.dir\
   TARGET_PDB = c_console_minecraft_launcher.pdb
 
-build CMakeFiles/c_console_minecraft_launcher.dir/src/options/listOption.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher$ -$ 副本/src/options/listOption.c || cmake_object_order_depends_target_c_console_minecraft_launcher
+build CMakeFiles/c_console_minecraft_launcher.dir/src/options/listOption.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/src/options/listOption.c || cmake_object_order_depends_target_c_console_minecraft_launcher
   DEP_FILE = CMakeFiles\c_console_minecraft_launcher.dir\src\options\listOption.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\c_console_minecraft_launcher.dir
@@ -105,7 +105,7 @@ build CMakeFiles/c_console_minecraft_launcher.dir/src/options/listOption.c.obj: 
   TARGET_COMPILE_PDB = CMakeFiles\c_console_minecraft_launcher.dir\
   TARGET_PDB = c_console_minecraft_launcher.pdb
 
-build CMakeFiles/c_console_minecraft_launcher.dir/src/options/printOption.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher$ -$ 副本/src/options/printOption.c || cmake_object_order_depends_target_c_console_minecraft_launcher
+build CMakeFiles/c_console_minecraft_launcher.dir/src/options/printOption.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/src/options/printOption.c || cmake_object_order_depends_target_c_console_minecraft_launcher
   DEP_FILE = CMakeFiles\c_console_minecraft_launcher.dir\src\options\printOption.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\c_console_minecraft_launcher.dir
@@ -113,7 +113,7 @@ build CMakeFiles/c_console_minecraft_launcher.dir/src/options/printOption.c.obj:
   TARGET_COMPILE_PDB = CMakeFiles\c_console_minecraft_launcher.dir\
   TARGET_PDB = c_console_minecraft_launcher.pdb
 
-build CMakeFiles/c_console_minecraft_launcher.dir/src/options/helpOption.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher$ -$ 副本/src/options/helpOption.c || cmake_object_order_depends_target_c_console_minecraft_launcher
+build CMakeFiles/c_console_minecraft_launcher.dir/src/options/helpOption.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/src/options/helpOption.c || cmake_object_order_depends_target_c_console_minecraft_launcher
   DEP_FILE = CMakeFiles\c_console_minecraft_launcher.dir\src\options\helpOption.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\c_console_minecraft_launcher.dir
@@ -121,7 +121,7 @@ build CMakeFiles/c_console_minecraft_launcher.dir/src/options/helpOption.c.obj: 
   TARGET_COMPILE_PDB = CMakeFiles\c_console_minecraft_launcher.dir\
   TARGET_PDB = c_console_minecraft_launcher.pdb
 
-build CMakeFiles/c_console_minecraft_launcher.dir/src/options/installOption.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher$ -$ 副本/src/options/installOption.c || cmake_object_order_depends_target_c_console_minecraft_launcher
+build CMakeFiles/c_console_minecraft_launcher.dir/src/options/installOption.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/src/options/installOption.c || cmake_object_order_depends_target_c_console_minecraft_launcher
   DEP_FILE = CMakeFiles\c_console_minecraft_launcher.dir\src\options\installOption.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\c_console_minecraft_launcher.dir
@@ -129,7 +129,7 @@ build CMakeFiles/c_console_minecraft_launcher.dir/src/options/installOption.c.ob
   TARGET_COMPILE_PDB = CMakeFiles\c_console_minecraft_launcher.dir\
   TARGET_PDB = c_console_minecraft_launcher.pdb
 
-build CMakeFiles/c_console_minecraft_launcher.dir/src/modules/downloadApiProviders.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher$ -$ 副本/src/modules/downloadApiProviders.c || cmake_object_order_depends_target_c_console_minecraft_launcher
+build CMakeFiles/c_console_minecraft_launcher.dir/src/modules/downloadApiProviders.c.obj: C_COMPILER__c_console_minecraft_launcher_Debug D$:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/src/modules/downloadApiProviders.c || cmake_object_order_depends_target_c_console_minecraft_launcher
   DEP_FILE = CMakeFiles\c_console_minecraft_launcher.dir\src\modules\downloadApiProviders.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\c_console_minecraft_launcher.dir
@@ -161,7 +161,7 @@ build c_console_minecraft_launcher.exe: C_EXECUTABLE_LINKER__c_console_minecraft
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Xdministrator\Desktop\CLionProjects\c-console-minecraft-launcher - 副本\cmake-build-debug" && "D:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\Xdministrator\Desktop\CLionProjects\c-console-minecraft-launcher\cmake-build-debug && "D:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -172,7 +172,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Xdministrator\Desktop\CLionProjects\c-console-minecraft-launcher - 副本\cmake-build-debug" && "D:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Xdministrator\Desktop\CLionProjects\c-console-minecraft-launcher - 副本" -B"D:\Xdministrator\Desktop\CLionProjects\c-console-minecraft-launcher - 副本\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D D:\Xdministrator\Desktop\CLionProjects\c-console-minecraft-launcher\cmake-build-debug && "D:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Xdministrator\Desktop\CLionProjects\c-console-minecraft-launcher -BD:\Xdministrator\Desktop\CLionProjects\c-console-minecraft-launcher\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -190,7 +190,7 @@ build c_console_minecraft_launcher: phony c_console_minecraft_launcher.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher - 副本/cmake-build-debug
+# Folder: D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/cmake-build-debug
 
 build all: phony c_console_minecraft_launcher.exe
 

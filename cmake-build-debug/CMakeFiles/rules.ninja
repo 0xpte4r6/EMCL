@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "D:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Xdministrator\Desktop\CLionProjects\c-console-minecraft-launcher - 副本" -B"D:\Xdministrator\Desktop\CLionProjects\c-console-minecraft-launcher - 副本\cmake-build-debug"
+  command = "D:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Xdministrator\Desktop\CLionProjects\c-console-minecraft-launcher -BD:\Xdministrator\Desktop\CLionProjects\c-console-minecraft-launcher\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

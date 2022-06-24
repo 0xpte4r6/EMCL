@@ -1,4 +1,4 @@
-# Install script for directory: D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher - 副本
+# Install script for directory: D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher - 副本/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Xdministrator/Desktop/CLionProjects/c-console-minecraft-launcher/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

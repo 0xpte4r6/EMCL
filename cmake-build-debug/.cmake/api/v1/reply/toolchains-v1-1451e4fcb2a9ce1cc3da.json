@@ -13,7 +13,8 @@
 						"D:/Program Files/JetBrains/CLion 2022.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include",
 						"D:/Program Files/JetBrains/CLion 2022.1/bin/mingw/include",
 						"D:/Program Files/JetBrains/CLion 2022.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
-						"D:/Program Files/JetBrains/CLion 2022.1/bin/mingw/x86_64-w64-mingw32/include"
+						"D:/Program Files/JetBrains/CLion 2022.1/bin/mingw/x86_64-w64-mingw32/include",
+						"/MinGW/include"
 					],
 					"linkDirectories" : [],
 					"linkFrameworkDirectories" : [],

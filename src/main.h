@@ -8,7 +8,7 @@
 #define WINDOWS 0
 #define LINUX 1
 #define MACOS 2
-#define CONFIGFILE "ccmcl.json"
+#define CONFIGFILE "emcl.json"
 #define CONFIGFILE_SIZE 4096
 #define _char 393216
 #define OUT
@@ -38,5 +38,7 @@ typedef struct {
 extern CONFIGS configs;
 
 void initConfig();
+
+static char *getConfigFileFullPath();
 
 #endif //C_CONSOLE_MINECRAFT_LAUNCHER_MAIN_H

@@ -35,7 +35,8 @@ P optionsMap_getValue(char *key) {
     return unknownArgument;
 }
 
-int main(int argc, char *argv[]) {
+int main(__attribute__((unused)) int argc, char *argv[]) {
+    SetConsoleOutputCP(65001); //设置控制台编码为 UTF-8
     initConfig();
     versionsDir = calloc(sizeof(char) * 512, sizeof(char));
     assetsDir = calloc(sizeof(char) * 512, sizeof(char));
@@ -62,17 +63,27 @@ int main(int argc, char *argv[]) {
 void initConfig() {
     cJSON *configJsonObjectFather;
     FILE *configFile;
-    if (access(CONFIGFILE, F_OK) == -1) {
-        configFile = fopen(CONFIGFILE, "w+");
+    if (access(getConfigFileFullPath(), F_OK) == -1) {
+        configFile = fopen(getConfigFileFullPath(), "w+");
         configJsonObjectFather = cJSON_CreateObject();
-        //cJSON_AddStringToObject(configJsonObjectFather, "playerName", "xPlayer");
         cJSON_AddNumberToObject(configJsonObjectFather, "maxMemory", 3072);
-        cJSON_AddStringToObject(configJsonObjectFather, "gameDir", ".minecraft");
+        cJSON_AddStringToObject(configJsonObjectFather, "gameDir", "F:/AppData/Roming/.minecraft");
         cJSON_AddStringToObject(configJsonObjectFather, "selectedVersion", "1.18.2");
         cJSON_AddStringToObject(configJsonObjectFather, "javaPath", "D:/jdk-17.0.2/bin/java.exe");
         cJSON_AddNumberToObject(configJsonObjectFather, "windowWidth", 854);
         cJSON_AddNumberToObject(configJsonObjectFather, "windowHeight", 480);
         cJSON_AddNumberToObject(configJsonObjectFather, "downloadSource", 0);
+        cJSON_AddNumberToObject(configJsonObjectFather, "selectedAccount", 0);
+        cJSON_AddArrayToObject(configJsonObjectFather,"accounts");
+
+        cJSON *accountsArray = cJSON_GetObjectItem(configJsonObjectFather,"accounts");
+        cJSON *accountsArrayObject1 = cJSON_CreateObject();
+        cJSON_AddStringToObject(accountsArrayObject1,"playerName","XPlayer");
+        cJSON_AddNumberToObject(accountsArrayObject1,"type",0);
+        cJSON_AddItemToArray(accountsArray,accountsArrayObject1);
+
+
+
         jsonObjectFatherString = cJSON_Print(configJsonObjectFather);
         //printf("%s",jsonObjectFatherString);
         //delCharFromString(jsonObjectFatherString, '\t');
@@ -80,7 +91,7 @@ void initConfig() {
         fprintf(configFile, "%s", jsonObjectFatherString);
         fclose(configFile);
     } else {
-        configFile = fopen(CONFIGFILE, "r");
+        configFile = fopen(getConfigFileFullPath(), "r");
         static char a[CONFIGFILE_SIZE];
         fread(a, sizeof(a), 1, configFile);
         jsonObjectFatherString = a;
@@ -132,3 +143,38 @@ void initConfig() {
     }
 }
 
+/*
+static char *getConfigFileFullPath() {
+    char *buffer;
+    static char path[CONFIGFILE_SIZE];
+    memset(path, 0, sizeof(path));
+    if ((buffer = getcwd(NULL, 0)) == NULL) {
+        perror("getcwd error");
+        exit(0);
+    }
+    strcpy(path, buffer);
+    str_replace_char(path, '\\', '/');
+    strncat(path, "/", 2);
+    strncat(path, CONFIGFILE, strlen(CONFIGFILE) + 1);
+    free(buffer);
+    return path;
+}*/
+
+static char *getConfigFileFullPath() {
+    char *buffer = _pgmptr;
+    static char path[CONFIGFILE_SIZE];
+    memset(path, 0, sizeof(path));
+    strcpy(path, buffer);
+    str_replace_char(path, '\\', '/');
+    unsigned int lastSlash = 0;
+    for (unsigned int i = 0; i < strlen(path); i++) {
+        if (path[i] == '/') {
+            lastSlash = i;
+        }
+    }
+    path[lastSlash] = '\0';
+    strncat(path, "/", 2);
+    strncat(path, CONFIGFILE, strlen(CONFIGFILE) + 1);
+    //free(buffer);
+    return path;
+}

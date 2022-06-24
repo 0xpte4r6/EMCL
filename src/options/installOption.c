@@ -246,7 +246,7 @@ void downloadAssets(char *versionJsonFullPath, char *arguments[]) {
 }
 
 
-//ccmcl -install -list 查看可安装的 Minecraft 版本
+//emcl -install -list 查看可安装的 Minecraft 版本
 static void getInstallableVersions(char *arguments[]) {
     char downloadCommand[8192], filePath[8192];
     sprintf(filePath, "%s%s", versionsDir, "/version_manifest.json");
